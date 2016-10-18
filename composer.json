@@ -3,8 +3,8 @@
     "description": "Easier testing in Laravel.",
     "authors": [
         {
-            "name": "Jeffrey Way",
-            "email": "jeffrey@jeffrey-way.com"
+            "name": "Felix",
+            "email": "felix@salim.bz"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Way\\Tests": "src/"
+            "Felixzzz\\Tests": "src/"
         }
     },
     "minimum-stability": "dev"
