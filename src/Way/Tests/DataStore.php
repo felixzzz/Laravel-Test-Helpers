@@ -1,4 +1,4 @@
-<?php namespace Way\Tests;
+<?php namespace Felixzzz\Tests;
 
 class DataStore {
 

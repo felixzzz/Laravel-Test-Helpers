@@ -5,10 +5,10 @@
 ```php
 <?php
 
-use Way\Tests\Factory;
+use Felixzzz\Tests\Factory;
 
 class UserTest extends TestCase {
-    use Way\Tests\ModelHelpers;
+    use Felixzzz\Tests\ModelHelpers;
 
     public function testIsInvalidWithoutName()
     {
@@ -20,7 +20,7 @@ class UserTest extends TestCase {
 }
 ```
 
-All model test helpers are stored as a trait. This makes them super easy to import into our test class. Simply add `use Way\Tests\ModelHelpers;` to the top of the class, and you should be good to go.
+All model test helpers are stored as a trait. This makes them super easy to import into our test class. Simply add `use Felixzzz\Tests\ModelHelpers;` to the top of the class, and you should be good to go.
 
 In the example above, we are asserting that a User model should be invalid, unless its `name` field is not empty.
 

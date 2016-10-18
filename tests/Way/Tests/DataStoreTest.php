@@ -1,6 +1,6 @@
 <?php
 
-use Way\Tests\DataStore;
+use Felixzzz\Tests\DataStore;
 
 class DataStoreTest extends PHPUnit_Framework_TestCase {
 

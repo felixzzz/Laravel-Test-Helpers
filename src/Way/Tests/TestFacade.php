@@ -1,4 +1,4 @@
-<?php namespace Way\Tests;
+<?php namespace Felixzzz\Tests;
 
 abstract class TestFacade extends \PHPUnit_Framework_Assert {
 

@@ -49,7 +49,7 @@ Within your test file, use your desired assertion wrapper (or both).
 ```php
 <?php
 
-use Way\Tests\Should;
+use Felixzzz\Tests\Should;
 
 class DemoTest extends PHPUnit_Framework_TestCase {
   public function testItWorks()
@@ -64,8 +64,8 @@ And that's it! Here's a few examples:
 ```php
 <?php
 
-use Way\Tests\Should;
-use Way\Tests\Assert;
+use Felixzzz\Tests\Should;
+use Felixzzz\Tests\Assert;
 
 class DemoTest extends PHPUnit_Framework_TestCase {
   public function testItWorks()

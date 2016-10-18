@@ -1,4 +1,4 @@
-<?php namespace Way\Tests;
+<?php namespace Felixzzz\Tests;
 
 use \Illuminate\Database\DatabaseManager;
 use Illuminate\Support\Str;

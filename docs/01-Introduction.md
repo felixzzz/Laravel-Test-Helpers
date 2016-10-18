@@ -13,7 +13,7 @@ As usual, install this package through Composer.
 
 ```js
 "require-dev": {
-    "way/laravel-test-helpers": "dev-master"
+    "felixzzz/laravel-test-helpers": "dev-master"
 }
 ```
 

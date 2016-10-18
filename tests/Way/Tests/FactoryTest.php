@@ -1,7 +1,7 @@
 <?php
 
-use Way\Tests\Factory;
-use Way\Tests\DataStore;
+use Felixzzz\Tests\Factory;
+use Felixzzz\Tests\DataStore;
 use Mockery as m;
 
 class FactoryTest extends PHPUnit_Framework_TestCase {
@@ -19,7 +19,7 @@ class FactoryTest extends PHPUnit_Framework_TestCase {
 
     public function testCanCreateFactory()
     {
-        $factory = m::mock('Way\Tests\Factory', [$this->mockedDb, new DataStore])->makePartial();
+        $factory = m::mock('Felixzzz\Tests\Factory', [$this->mockedDb, new DataStore])->makePartial();
 
         $factory->shouldReceive('getColumns')
                 ->andReturn([
@@ -40,7 +40,7 @@ class FactoryTest extends PHPUnit_Framework_TestCase {
 
     public function testCanOverrideDefaults()
     {
-        $factory = m::mock('Way\Tests\Factory', [$this->mockedDb, new DataStore])->makePartial();
+        $factory = m::mock('Felixzzz\Tests\Factory', [$this->mockedDb, new DataStore])->makePartial();
         $factory->shouldReceive('getColumns')->andReturn(['email' => 'sample@example.com']);
         $factory->shouldReceive('getDataType')->andReturn('string');
 

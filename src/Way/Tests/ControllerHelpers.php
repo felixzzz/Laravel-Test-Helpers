@@ -1,4 +1,4 @@
-<?php namespace Way\Tests;
+<?php namespace Felixzzz\Tests;
 
 trait ControllerHelpers {
     protected function see()

@@ -6,7 +6,7 @@ This package contains a small list of controller-specific helper methods. Stored
 <?php
 
 class ExampleTest extends TestCase {
-    use Way\Tests\ControllerHelpers;
+    use Felixzzz\Tests\ControllerHelpers;
 }
 ```
 

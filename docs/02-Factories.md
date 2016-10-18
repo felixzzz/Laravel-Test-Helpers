@@ -13,7 +13,7 @@ This can very quickly flood your test classes. Instead, use a factory!
 ```php
 <?php
 
-use Way\Tests\Factory;
+use Felixzzz\Tests\Factory;
 
 class UserTest extends TestCase {
 
